@@ -1,0 +1,2 @@
+⍝ Find the sum of even-valued fibonacci numbers below 4 million
++/{⍵[⍸0=2|⍵]}¯1↓{⍵,+/¯2↑⍵}⍣{4e6<¯1↑⍺}⊢1 1
